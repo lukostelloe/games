@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+button {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.rock {
+  background-image: url(RPS/rock.jpg);
+  background-size: cover;
+}
+
+.paper {
+  background-image: url(RPS/paper.jpg);
+  background-size: cover;
+}
+
+.scissors {
+  background-image: url(RPS/scissors.jpg);
+  background-size: cover;
+}
+
+#gamebox {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
