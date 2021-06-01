@@ -1,0 +1,15 @@
+body {
+  font-size: x-large;
+}
+
+#intro {
+  color: blue;
+}
+
+#progressbar {
+  position: fixed;
+  top: 5px;
+  left: 600px;
+  height: 5rem;
+  width: 50rem;
+}
