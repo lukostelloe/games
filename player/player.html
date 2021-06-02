@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player</title>
+    <link rel="stylesheet" href="player.css" />
+    <script src="player.js" defer></script>
+  </head>
+  <body>
+    <div id="videoDiv">
+      <video id="video1" class="video" style="display: block">
+        <source src="video1.mp4" type="video/mp4" />
+      </video>
+      <video id="video2" class="video" style="display: none">
+        <source src="video2.mp4" type="video/mp4" />
+      </video>
+      <video id="video3" class="video" style="display: none">
+        <source src="video3.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div id="buttons">
+      <button id="previous" class="btn" onclick="previous()">|<</button>
+      <button id="next" class="btn" onclick="next()">>|</button>
+      <button id="pause/resume" class="btn" onclick="playPause()"></button>
+      <button id="play" class="btn" onclick="play()">PLAY</button>
+      <button id="stop" class="btn" onclick="stop()">STOP</button>
+    </div>
+  </body>
+</html>
