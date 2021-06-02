@@ -3,6 +3,9 @@ let first = true;
 let second = false;
 let third = false;
 
+const previous = (document.getElementById("previous").disabled = "true");
+const next = (document.getElementById("next").disabled = "true");
+
 //////////////////////////////////////PLAY///////////////////////////
 
 function play() {
