@@ -13,6 +13,7 @@ body {
 #top {
   position: relative;
   text-align: center;
+  animation: slide 2s;
 }
 
 #board {
@@ -27,6 +28,7 @@ body {
   grid-template-columns: repeat(3, auto);
   width: 400px;
   height: 400px;
+  animation: swipe 2s;
 }
 
 .cell {
@@ -39,5 +41,45 @@ body {
 #game-status {
   position: relative;
   text-align: center;
+  align-items: center;
+  align-content: center;
   font-size: x-large;
+  animation: slider 2s;
+}
+
+#playagain {
+  margin: 0 auto;
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+@keyframes swipe {
+  from {
+    right: 100px;
+  }
+  to {
+    right: 0px;
+  }
+}
+
+@keyframes slide {
+  from {
+    top: 30px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+@keyframes slider {
+  from {
+    bottom: 30px;
+  }
+  to {
+    bottom: 0px;
+  }
 }

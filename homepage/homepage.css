@@ -1,6 +1,22 @@
 body {
   animation: colory 20s infinite;
   font-size: xx-large;
+  color: white;
+}
+
+a:link,
+a:visited {
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  /* background-color: #a6f7fa; */
+  text-decoration: underline;
 }
 
 #myVideo {
