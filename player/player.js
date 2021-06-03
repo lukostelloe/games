@@ -3,8 +3,8 @@ let first = true;
 let second = false;
 let third = false;
 
-const previous = (document.getElementById("previous").disabled = "true");
-const next = (document.getElementById("next").disabled = "true");
+// const previous = (document.getElementById("previous").disabled = "true");
+// const next = (document.getElementById("next").disabled = "true");
 
 //////////////////////////////////////PLAY///////////////////////////
 
@@ -87,9 +87,6 @@ function stop() {
 ///////////////NEXT BUTTON//////////////////////
 
 function next() {
-  console.log(video1.style.display);
-  console.log(video2.style.display);
-  console.log(video3.style.display);
   if (video1.style.display === "block") {
     video1.style.display = "none";
     video2.style.display = "block";

@@ -1,0 +1,36 @@
+body {
+  animation: colory 20s infinite;
+  font-size: xx-large;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#homepage {
+  position: relative;
+  text-align: center;
+}
+
+#list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+}
+
+@keyframes colory {
+  0% {
+    background-color: rgb(182, 182, 240);
+  }
+  50% {
+    background-color: rgb(153, 153, 250);
+  }
+  100% {
+    background-color: rgb(182, 182, 240);
+  }
+}

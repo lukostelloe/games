@@ -1,0 +1,129 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(118, 150, 247);
+  animation: colory 0.3s infinite;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: xx-large;
+  text-shadow: 3px 3px rgb(5, 215, 243);
+  animation: bouncy 2s infinite;
+}
+#box0 {
+  display: flex;
+  justify-content: left;
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  animation: roundy 2s infinite;
+  animation: smally 2s infinite;
+}
+
+#box1 {
+  display: flex;
+  justify-content: left;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(206, 60, 186);
+  animation: roundy 2s infinite;
+}
+
+#box2 {
+  display: flex;
+  justify-content: right;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  background-color: red;
+  animation: biggy 2s infinite;
+}
+
+#box3 {
+  display: flex;
+  justify-content: right;
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  animation-name: roundy;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#box4 {
+  display: flex;
+  justify-content: right;
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  /* animation: roundy 4s infinite; */
+  animation: biggy 2s infinite;
+}
+
+#eyes {
+  display: flex;
+  justify-content: center;
+}
+
+#eye1 {
+  background-color: rgb(236, 20, 20);
+}
+
+@keyframes roundy {
+  from {
+    border-radius: 0;
+  }
+  to {
+    border-radius: 100%;
+  }
+}
+
+@keyframes smally {
+  from {
+    border-radius: 0;
+    width: 300px;
+    height: 300px;
+  }
+  to {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@keyframes biggy {
+  from {
+    border-radius: 0;
+    width: 50px;
+    height: 50px;
+  }
+  to {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@keyframes colory {
+  from {
+    background: rgb(118, 150, 247);
+  }
+  to {
+    background: rgb(81, 170, 96);
+  }
+}
+
+@keyframes bouncy {
+  0% {
+    transform: translateY(0);
+    background: rgb(118, 150, 247);
+  }
+  50% {
+    transform: translateY(100px);
+    background: rgb(117, 48, 102);
+  }
+  100% {
+    transform: translateY(0);
+    background: rgb(81, 170, 96);
+  }
+}
