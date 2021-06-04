@@ -4,7 +4,8 @@ img {
 }
 
 .maincontainer {
-  display: flex;
+  display: grid;
+  align-content: center;
   width: 250px;
   height: 250px;
   background: none;

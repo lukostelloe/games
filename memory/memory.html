@@ -4,9 +4,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Memory Card Game</title>
     <link rel="stylesheet" href="memory.css" />
-    <script src="memory.js"></script>
+    <script src="memory.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <h1 id="intro">Memory Game!</h1>
+    <section class="memorygame">
+      <div onclick="aliceCardclick()" class="card alice">
+        <img class="front" src="memorypics/alice.jpg" alt="alice" />
+        <img class="back" src="memorypics/cardback.jpg" alt="Memory Card" />
+      </div>
+      <div onclick="aliceCardclick()" class="card alice">
+        <img class="front" src="memorypics/alice.jpg" alt="alice" />
+        <img class="back" src="memorypics/cardback.jpg" alt="Memory Card" />
+      </div>
+      <div onclick="bartCardclick()" class="card bart">
+        <img class="front" src="memorypics/bart.jpg" alt="bart" />
+        <img class="back" src="memorypics/cardback.jpg" alt="Memory Card" />
+      </div>
+      <div onclick="bartCardclick()" class="card bart">
+        <img class="front" src="memorypics/bart.jpg" alt="bart" />
+        <img class="back" src="memorypics/cardback.jpg" alt="Memory Card" />
+      </div>
+      <div onclick="catCardclick()" class="card cat">
+        <img class="front" src="memorypics/cat.jpg" alt="cat" />
+        <img class="back" src="memorypics/cardback.jpg" alt="Memory Card" />
+      </div>
+      <div onclick="catCardclick()" class="card cat">
+        <img class="front" src="memorypics/cat.jpg" alt="cat" />
+        <img class="back" src="memorypics/cardback.jpg" alt="Memory Card" />
+      </div>
+      <div onclick="dwarfCardclick()" class="card dwarf">
+        <img class="front" src="memorypics/dwarf.jpg" alt="dwarf" />
+        <img class="back" src="memorypics/cardback.jpg" alt="Memory Card" />
+      </div>
+      <div onclick="dwarfCardclick()" class="card dwarf">
+        <img class="front" src="memorypics/dwarf.jpg" alt="dwarf" />
+        <img class="back" src="memorypics/cardback.jpg" alt="Memory Card" />
+      </div>
+      <div onclick="ladyCardclick()" class="card lady">
+        <img class="front" src="memorypics/lady.jpg" alt="lady" />
+        <img class="back" src="memorypics/cardback.jpg" alt="Memory Card" />
+      </div>
+      <div onclick="ladyCardclick()" class="card lady">
+        <img class="front" src="memorypics/lady.jpg" alt="lady" />
+        <img class="back" src="memorypics/cardback.jpg" alt="Memory Card" />
+      </div>
+      <div onclick="lisaCardclick()" class="card lisa">
+        <img class="front" src="memorypics/lisa.jpg" alt="lisa" />
+        <img class="back" src="memorypics/cardback.jpg" alt="Memory Card" />
+      </div>
+      <div onclick="lisaCardclick()" class="card lisa">
+        <img class="front" src="memorypics/lisa.jpg" alt="lisa" />
+        <img class="back" src="memorypics/cardback.jpg" alt="Memory Card" />
+      </div>
+    </section>
+    <h1 id="instructions">Pick a Card</h1>
+    <button id="replay">Replay</button>
+  </body>
 </html>
